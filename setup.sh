@@ -21,6 +21,8 @@ echo "Installing python packages..."
 source /usr/local/bin/virtualenvwrapper.sh && mkvirtualenv -a . -r requirements.txt -p python3 textbook
 
 echo "Installing ImageMagick..."
+sudo add-apt-repository main
+sudo apt-get update
 sudo apt-get install imagemagick
 
 echo "Installing pandoc..."
