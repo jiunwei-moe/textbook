@@ -1,0 +1,186 @@
+body {
+    margin: 0 auto;
+    padding: 1px 1em 2em 1em;
+    max-width: 44em; 
+    border-left: 1px solid silver;
+    border-right: 1px solid silver;
+    color: black;
+    font-family: Optima, sans-serif;
+    font-size: 100%;
+    line-height: 140%;
+}
+
+pre, .pre {
+    border: 1px dotted gray;
+    background-color: #ececec;
+    color: black;
+    padding: 0.5em;
+}
+
+code {
+    font-family: monospace;
+}
+
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a { 
+    text-decoration: none;
+    color: #f05a22; 
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5 { 
+    font-family: "Eras Medium ITC";
+    font-weight: normal;
+    border-bottom: 1px dotted black;
+    color: #f05a22; 
+    line-height: 1em;
+}
+
+h1 {
+    color: black;
+    font-size: 36pt;
+}
+
+h2 {
+    background: #f05a22; 
+    color: white;
+    font-size: 1.4em;
+    padding: 2px 4px;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+h5 {
+    font-family: Optima, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+h1.title {
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    text-align: left;
+    border: none;
+}
+
+dt code {
+    font-weight: bold;
+}
+
+dd p {
+    margin-top: 0;
+}
+
+#footer {
+    padding-top: 1em;
+    font-size: 70%;
+    color: gray;
+    text-align: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+caption, p.caption {
+    font-size: 10px;
+    color: gray;
+}
+
+.learning-context,
+.learning-objectives,
+.keyterm, 
+.keyterms, 
+.didyouknow, 
+.syntax, 
+.quickcheck, 
+.program, 
+.example,
+.theorem,
+.boxed {
+    border: 1px solid black;
+    margin: 1em 0;
+    padding: 0 1em;
+}
+
+table {
+    margin: 1em 0;
+}
+
+.placeholder {
+    border: 1px solid black;
+    color: gray;
+}
+
+img {
+    max-width: 40em;
+}
+
+.figure {
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.didyouknow {
+    border: 5px solid #abe0f9;
+}
+
+.keyterm, .keyterms {
+    border: 5px solid #61bb46;
+}
+
+th {
+    background: #abe0f9;
+}
+
+.numbers {
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.numbers pre {
+    background: white;
+    color: gray;
+    font-style: italic;
+    margin: 0;
+}
+
+dt {
+    font-weight: bold;
+}
+
+@media print {
+
+    body {
+        border-left: 0;
+        border-right: 0;
+    }
+
+    h2 {
+        background: none; 
+        color: #f05a22;
+        font-size: 1.6em;
+        padding: 0;
+    }
+
+}

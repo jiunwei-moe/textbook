@@ -63,3 +63,9 @@ tests/.hitch
 
 # MailHog binary
 mailhog
+
+# Custom
+reference/
+sample/
+dist/
+*.deb
