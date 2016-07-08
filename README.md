@@ -4,7 +4,7 @@
 
 The files in this repository automate document generation for textbook writing. A dummy chapter is provided as a sample.
 
-The `setup.py` script is provided for easy deployment on [Cloud9](http://c9.io).
+The `setup.sh` script is provided for easy deployment on [Cloud9](http://c9.io).
 
 ## Usage
 
